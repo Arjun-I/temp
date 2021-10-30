@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Background on Bhrugu Bhatt</title>
-    <link>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/about/</link>
+    <link>https://arjun-i.github.io/temp/about/</link>
     <description>Recent content in Background on Bhrugu Bhatt</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/about/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://arjun-i.github.io/temp/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Machine Learning Coursework</title>
-      <link>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/about/ml-background/</link>
+      <link>https://arjun-i.github.io/temp/about/ml-background/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/about/ml-background/</guid>
+      <guid>https://arjun-i.github.io/temp/about/ml-background/</guid>
       <description>In May and June, 2021, I completed the full Mathematics of Machine Learning specialization on Coursera offered by the Imperial College of London. This 3-course specialization included background on Linear Algebra, Multivariate Calculus, and Principal Component Analysis (PCA) for machine learning purposes.
 Link to course: https://www.coursera.org/specializations/mathematics-machine-learning#courses
 Link to Github respository: https://github.com/bbhatt03/Coursera-Mathematics-of-Machine-Learning
@@ -20,19 +20,19 @@ From June, 2021 to August, 2021 I completed the Machine Learning A-Z™: Hands-O
     
     <item>
       <title>Solving Problems with Current Methods and Past Research</title>
-      <link>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/about/problems-in-past/</link>
+      <link>https://arjun-i.github.io/temp/about/problems-in-past/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/about/problems-in-past/</guid>
+      <guid>https://arjun-i.github.io/temp/about/problems-in-past/</guid>
       <description>The traditional classification by eye is extremely prone to human error due to the simple number of factors that affect a person’s perception, decision making, and thought process. It is also extremely time consuming and expensive as the pathologist would have to spend a great amount of time looking for the individual defining characteristics in the many different morphological variations of the cancerous and healthy cells. This can lead to a greater chance of misdiagnosis and worsening of the patient&amp;rsquo;s condition.</description>
     </item>
     
     <item>
       <title>Traditional Classification of Acute Lymphoblastic Leukemia (ALL)</title>
-      <link>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/about/why-all/</link>
+      <link>https://arjun-i.github.io/temp/about/why-all/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/about/why-all/</guid>
+      <guid>https://arjun-i.github.io/temp/about/why-all/</guid>
       <description>Defining characteristics of ALL and healthy cells look extremely similar as seen above.   ALL is caused by genetic mutations that tell the cells to continue growing and dividing instead of following the standard process. It causes rapid creation of immature white blood cells (lymphoblasts) inside the bone marrow instead of mature white blood cells (lymphocytes). There are two types of acute lymphoblastic leukemia: B-lymphoblastic leukemia and T-lymphoblastic leukemia.</description>
     </item>
     

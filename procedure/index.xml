@@ -2,54 +2,54 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Procedural Summary on Bhrugu Bhatt</title>
-    <link>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/procedure/</link>
+    <link>https://arjun-i.github.io/temp/procedure/</link>
     <description>Recent content in Procedural Summary on Bhrugu Bhatt</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/procedure/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://arjun-i.github.io/temp/procedure/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1. Train Siamese Network with Identical CNNs on Vast Unrelated Dataset (Ex. ImageNet or Omniglot)</title>
-      <link>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/procedure/step1/</link>
+      <link>https://arjun-i.github.io/temp/procedure/step1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/procedure/step1/</guid>
+      <guid>https://arjun-i.github.io/temp/procedure/step1/</guid>
       <description>We will first start the process of training a Siamese network with identical convolutional neural networks on a large dataset like ImageNet or Omniglot. These images are not required to similar to our cell-based dataset and are not expected to be, as we are training the Siamese Network for the sole purpose of gathering weights that we can use for our model based on a small support sample.
  An Example of a Siamese Network in Action   These weights will help to classify similar images from different images given a query.</description>
     </item>
     
     <item>
       <title>2. Create Small Support Sample from ALL Dataset</title>
-      <link>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/procedure/step2/</link>
+      <link>https://arjun-i.github.io/temp/procedure/step2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/procedure/step2/</guid>
+      <guid>https://arjun-i.github.io/temp/procedure/step2/</guid>
       <description>An example of selecting a series of healthy images and cancerous images to form a support set   We plan on taking a small support sample from our dataset, consisting of around 4 images of the cancerous cells and 4 images of the healthy lymphocytes. This support sample will be later used to compare images from this support sample to a query image, which will allow the model to classify ALL.</description>
     </item>
     
     <item>
       <title>3. Give Query and Use Small Support Sample of ALL/Healthy Images for Comparison and Classification</title>
-      <link>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/procedure/step3/</link>
+      <link>https://arjun-i.github.io/temp/procedure/step3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/procedure/step3/</guid>
+      <guid>https://arjun-i.github.io/temp/procedure/step3/</guid>
       <description>An example of our query image comparison method   Our model will compare the image from a query with the images in the support set in order to find the highest similarity score using a Sigmoid function, using a similar methodology to Logistic Regression Classification to classify the images in the support set into healthy and cancerous cells. This will hopefully allow us to classify the images based on cell type.</description>
     </item>
     
     <item>
       <title>4. Check Classification Accuracy with Labeled Data</title>
-      <link>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/procedure/step4/</link>
+      <link>https://arjun-i.github.io/temp/procedure/step4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/procedure/step4/</guid>
+      <guid>https://arjun-i.github.io/temp/procedure/step4/</guid>
       <description>After we have completed our comparison and classification step, we will work to check the classification accuracy of our model with the labeled data. We will work on fine-tuning the model if our classification accuracy isn&amp;rsquo;t close to our desired amount, and we will repeat this step as many times as possible until we reach a desired classification accuracy.
  An Image of a Portion of our CSV File, With Data Labels   </description>
     </item>
     
     <item>
       <title>C-NMC 2019 Challenge Dataset Summary</title>
-      <link>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/procedure/datasetsummary/</link>
+      <link>https://arjun-i.github.io/temp/procedure/datasetsummary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/procedure/datasetsummary/</guid>
+      <guid>https://arjun-i.github.io/temp/procedure/datasetsummary/</guid>
       <description>For the purposes of our research, we will be using the C-NMC 2019 Challenge Dataset. Our dataset has only 73 subjects, but the amount of cell images received from the subjects can negate any potential issues with the lack of subjects. For our approach, we plan on using a Siamese Network to gain the ability to classify images based on similarity. Some pre-existing weights already exist, so they may be used to save any potential computational costs that may arise with the model.</description>
     </item>
     
