@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Researcher Meetings on Bhrugu Bhatt</title>
+    <link>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/researcher-meetings/</link>
+    <description>Recent content in Researcher Meetings on Bhrugu Bhatt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/researcher-meetings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Meeting 1: Dr. Rajasekaran (Genentech) - 10/3/2021</title>
+      <link>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/researcher-meetings/meet-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/researcher-meetings/meet-1/</guid>
+      <description>Introduction with Dr. Kamal Rajasekaran
+Brief Overview of the Project Presented to Him
+Presentation of Slides to Give an Idea of the Project Discussion of the Dataset Used
+Discussion of the Uniqueness of Our Proposal
+Discussion of Future Collaboration with Dr. Rajasekaran Said he can contact some of his peers in the Digital Pathology department at Genentech who are experts in machine learning in cancer research. Will forward them the background research paper and dataset overview</description>
+    </item>
+    
+    <item>
+      <title>Meeting 2: Dr. Schau (Genentech) - 10/13/2021</title>
+      <link>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/researcher-meetings/meet-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/researcher-meetings/meet-2/</guid>
+      <description>Key Topics Discussed During the Meeting
+Recommendation of Pre Training Procedure
+Dr. Schau recommended taking already existing weights from ImageNet, rather than pre training a model based on ImageNet
+Reasons for this are pre training an existing model takes a longer amount of time and is more computationally expensive
+Discussion of Other Ways to Tackle Overfitting
+K-fold cross validation is a good strategy to tackle overfitting
+Dr. Schau recommended us to do 5-fold Cross Validation</description>
+    </item>
+    
+    <item>
+      <title>Meeting 3: Dr. Schau (Genentech) - 10/18/2021</title>
+      <link>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/researcher-meetings/meet-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/researcher-meetings/meet-3/</guid>
+      <description>Questions for Dr. Schau
+Question 1: What kind of neural network design would be best for our research purposes? (eg. amount of nodes per layer, amount of layers, ex)
+Answer: There are a lot of pre-existing models in FSL, and we can use that for our research purposes. RESnet might be too big for our problem, as we are dealing with small nuclei. We could use RESNet-50, but we could expand it to other neural network architectures.</description>
+    </item>
+    
+  </channel>
+</rss>

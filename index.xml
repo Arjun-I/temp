@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A Few-Shot Learning Approach to Acute Lymphoblastic Leukemia (ALL) Classification on Bhrugu Bhatt</title>
+    <link>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/</link>
+    <description>Recent content in A Few-Shot Learning Approach to Acute Lymphoblastic Leukemia (ALL) Classification on Bhrugu Bhatt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1. Train Siamese Network with Identical CNNs on Vast Unrelated Dataset (Ex. ImageNet or Omniglot)</title>
+      <link>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/procedure/step1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/procedure/step1/</guid>
+      <description>We will first start the process of training a Siamese network with identical convolutional neural networks on a large dataset like ImageNet or Omniglot. These images are not required to similar to our cell-based dataset and are not expected to be, as we are training the Siamese Network for the sole purpose of gathering weights that we can use for our model based on a small support sample.
+ An Example of a Siamese Network in Action   These weights will help to classify similar images from different images given a query.</description>
+    </item>
+    
+    <item>
+      <title>2. Create Small Support Sample from ALL Dataset</title>
+      <link>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/procedure/step2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/procedure/step2/</guid>
+      <description>An example of selecting a series of healthy images and cancerous images to form a support set   We plan on taking a small support sample from our dataset, consisting of around 4 images of the cancerous cells and 4 images of the healthy lymphocytes. This support sample will be later used to compare images from this support sample to a query image, which will allow the model to classify ALL.</description>
+    </item>
+    
+    <item>
+      <title>3. Give Query and Use Small Support Sample of ALL/Healthy Images for Comparison and Classification</title>
+      <link>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/procedure/step3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/procedure/step3/</guid>
+      <description>An example of our query image comparison method   Our model will compare the image from a query with the images in the support set in order to find the highest similarity score using a Sigmoid function, using a similar methodology to Logistic Regression Classification to classify the images in the support set into healthy and cancerous cells. This will hopefully allow us to classify the images based on cell type.</description>
+    </item>
+    
+    <item>
+      <title>4. Check Classification Accuracy with Labeled Data</title>
+      <link>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/procedure/step4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/procedure/step4/</guid>
+      <description>After we have completed our comparison and classification step, we will work to check the classification accuracy of our model with the labeled data. We will work on fine-tuning the model if our classification accuracy isn&amp;rsquo;t close to our desired amount, and we will repeat this step as many times as possible until we reach a desired classification accuracy.
+ An Image of a Portion of our CSV File, With Data Labels   </description>
+    </item>
+    
+    <item>
+      <title>April-August, 2021</title>
+      <link>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/post/post3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/post/post3/</guid>
+      <description>4/2 - COMPLETED THE COURSE “Mathematics for Machine Learning: Linear Algebra”
+5/6 - COMPLETED THE COURSE “Mathematics for Machine Learning: Multivariate Calculus”
+5/7 - Uploaded all Signature 3 materials into a folder including the presentation, background paper, certificates of course completion, all notes for the courses, all code and exercises from courses into Github. Did not upload recorded video of MML presentation.
+5/8 - Uploaded recorded video of MML presentation.</description>
+    </item>
+    
+    <item>
+      <title>C-NMC 2019 Challenge Dataset Summary</title>
+      <link>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/procedure/datasetsummary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/procedure/datasetsummary/</guid>
+      <description>For the purposes of our research, we will be using the C-NMC 2019 Challenge Dataset. Our dataset has only 73 subjects, but the amount of cell images received from the subjects can negate any potential issues with the lack of subjects. For our approach, we plan on using a Siamese Network to gain the ability to classify images based on similarity. Some pre-existing weights already exist, so they may be used to save any potential computational costs that may arise with the model.</description>
+    </item>
+    
+    <item>
+      <title>February, 2021</title>
+      <link>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/post/post1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/post/post1/</guid>
+      <description>2/15 - I found a new dataset that would allow me to have “A new machine learning approach to classifying immature leukemic blasts from normal cells in Acute Lymphoblastic Leukemia (ALL)”. I sent an email to Mr. Writer requesting him to provide feedback on it and see if it was good for our purposes. He said that he would check it out and get back to me in a few days.</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning Coursework</title>
+      <link>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/about/ml-background/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/about/ml-background/</guid>
+      <description>In May and June, 2021, I completed the full Mathematics of Machine Learning specialization on Coursera offered by the Imperial College of London. This 3-course specialization included background on Linear Algebra, Multivariate Calculus, and Principal Component Analysis (PCA) for machine learning purposes.
+Link to course: https://www.coursera.org/specializations/mathematics-machine-learning#courses
+Link to Github respository: https://github.com/bbhatt03/Coursera-Mathematics-of-Machine-Learning
+From June, 2021 to August, 2021 I completed the Machine Learning A-Z™: Hands-On Python &amp;amp; R In Data Science course on Udemy.</description>
+    </item>
+    
+    <item>
+      <title>March, 2021</title>
+      <link>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/post/post2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/post/post2/</guid>
+      <description>3/1 - Received email reply from Sara Hosseinzadeh Kassani regarding the C-NMC Dataset.
+“Regarding your inquiries, i) the dataset is severely skewed in ALL cases; you definitely need to do some data augmentation or provide external cases. ii) the results of applying deep architectures have the issue of underfitting; therefore, extracting features from deep architectures and using machine learning classifiers might resolve this issue. Iii) no specific pre-processing steps are needed as the dataset is already pre-processed by the challenge providers.</description>
+    </item>
+    
+    <item>
+      <title>Meeting 1: Dr. Rajasekaran (Genentech) - 10/3/2021</title>
+      <link>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/researcher-meetings/meet-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/researcher-meetings/meet-1/</guid>
+      <description>Introduction with Dr. Kamal Rajasekaran
+Brief Overview of the Project Presented to Him
+Presentation of Slides to Give an Idea of the Project Discussion of the Dataset Used
+Discussion of the Uniqueness of Our Proposal
+Discussion of Future Collaboration with Dr. Rajasekaran Said he can contact some of his peers in the Digital Pathology department at Genentech who are experts in machine learning in cancer research. Will forward them the background research paper and dataset overview</description>
+    </item>
+    
+    <item>
+      <title>Meeting 2: Dr. Schau (Genentech) - 10/13/2021</title>
+      <link>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/researcher-meetings/meet-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/researcher-meetings/meet-2/</guid>
+      <description>Key Topics Discussed During the Meeting
+Recommendation of Pre Training Procedure
+Dr. Schau recommended taking already existing weights from ImageNet, rather than pre training a model based on ImageNet
+Reasons for this are pre training an existing model takes a longer amount of time and is more computationally expensive
+Discussion of Other Ways to Tackle Overfitting
+K-fold cross validation is a good strategy to tackle overfitting
+Dr. Schau recommended us to do 5-fold Cross Validation</description>
+    </item>
+    
+    <item>
+      <title>Meeting 3: Dr. Schau (Genentech) - 10/18/2021</title>
+      <link>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/researcher-meetings/meet-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/researcher-meetings/meet-3/</guid>
+      <description>Questions for Dr. Schau
+Question 1: What kind of neural network design would be best for our research purposes? (eg. amount of nodes per layer, amount of layers, ex)
+Answer: There are a lot of pre-existing models in FSL, and we can use that for our research purposes. RESnet might be too big for our problem, as we are dealing with small nuclei. We could use RESNet-50, but we could expand it to other neural network architectures.</description>
+    </item>
+    
+    <item>
+      <title>Research Website Creation - 10/27/2021</title>
+      <link>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/post/post4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/post/post4/</guid>
+      <description>Created research digital portfolio using Hugo and Github pages.</description>
+    </item>
+    
+    <item>
+      <title>Solving Problems with Current Methods and Past Research</title>
+      <link>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/about/problems-in-past/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/about/problems-in-past/</guid>
+      <description>The traditional classification by eye is extremely prone to human error due to the simple number of factors that affect a person’s perception, decision making, and thought process. It is also extremely time consuming and expensive as the pathologist would have to spend a great amount of time looking for the individual defining characteristics in the many different morphological variations of the cancerous and healthy cells. This can lead to a greater chance of misdiagnosis and worsening of the patient&amp;rsquo;s condition.</description>
+    </item>
+    
+    <item>
+      <title>South Korea - Daegu Science High School Points of Collaboration</title>
+      <link>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/collaborations/proposal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/collaborations/proposal/</guid>
+      <description>We are currently collaborating with students from the Daegu Science High School in Daegu, South Korea for our research. We have proposed an almost parallel project collaboration structure in which we will continue with our original research idea and they will work on another branch of the topic.
+Yena Choi and Seoun Park are interested in conducting research on time series data. Therefore, we proposed that they work on time series data which describes the progression of Acute Lymphoblastic Leukemia (ALL) and try to predict severity over a period of time.</description>
+    </item>
+    
+    <item>
+      <title>Traditional Classification of Acute Lymphoblastic Leukemia (ALL)</title>
+      <link>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/about/why-all/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/bbhatt03/FSL-Digital-Research-Portfolio/about/why-all/</guid>
+      <description>Defining characteristics of ALL and healthy cells look extremely similar as seen above.   ALL is caused by genetic mutations that tell the cells to continue growing and dividing instead of following the standard process. It causes rapid creation of immature white blood cells (lymphoblasts) inside the bone marrow instead of mature white blood cells (lymphocytes). There are two types of acute lymphoblastic leukemia: B-lymphoblastic leukemia and T-lymphoblastic leukemia.</description>
+    </item>
+    
+  </channel>
+</rss>
